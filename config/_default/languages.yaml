@@ -3,21 +3,16 @@
 #   Documentation: https://wowchemy.com/docs/guide/language/
 
 # Default language
-en:
-  languageCode: en-us
+#en:
+ # languageCode: en-us
+ # languageName: English
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
 ar:
   languageCode: ar
+  languageName: Arabic
   languagedirection: rtl
-  contentDir: content/ar
+  #contentDir: content/ar
   title: مدونة هاشم
-  params:
-    description: مختلف المواضيع التقنية
-  menu:
-    main:
-      - name: حول
-        url: '#about'
-        weight: 2

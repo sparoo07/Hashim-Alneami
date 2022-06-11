@@ -7,11 +7,11 @@
 - id: back_to_top
   translation: الرجوع لأعلى الصفحة
 - id: home
-  translation: Home
+  translation: الرئيسية
 - id: close
-  translation: Close
+  translation: إغلاق
 - id: languages
-  translation: Languages
+  translation: اللغات
 - id: related
   translation: ذات صلة
 - id: minute_read
@@ -25,7 +25,7 @@
 - id: edit_page
   translation: عدل هذه الصفحة
 - id: theme_selector
-  translation: Display preferences
+  translation: اظهر التفضيلات
 - id: theme_light
   translation: الوضع العادي
 - id: theme_dark
@@ -75,7 +75,7 @@
 - id: more_publications
   translation: شاهد جميع المنشورات
 - id: contact_name
-  translation: الأسم
+  translation: الاسم
 - id: contact_email
   translation: البريد الإلكتروني
 - id: contact_message
@@ -129,7 +129,7 @@
 - id: slides
   translation: Slides
 - id: authors
-  translation: Authors
+  translation: المؤلفون
 - id: search
   translation: بحث
 - id: search_placeholder

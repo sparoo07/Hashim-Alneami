@@ -1,5 +1,5 @@
 ---
-title: test
+title: اختبار
 date: 2022-06-11T15:54:00.924Z
 draft: false
 featured: false
