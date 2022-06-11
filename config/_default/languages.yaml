@@ -20,3 +20,15 @@ zh:
       - name: 传
         url: '#about'
         weight: 1
+
+ar:
+  languageCode: ar
+  contentDir: content/ar
+  title: مدونة هاشم
+  params:
+    description: مختلف المواضيع التقنية
+  menu:
+    main:
+      - name: حول
+        url: '#about'
+        weight: 1
