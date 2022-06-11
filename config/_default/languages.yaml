@@ -20,4 +20,4 @@ ar:
     main:
       - name: حول
         url: '#about'
-        weight: 1
+        weight: 2
