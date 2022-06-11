@@ -7,6 +7,7 @@ image:
   filename: 13375d59897369.5a32fe29e7a2f.png
   focal_point: Smart
   preview_only: false
+  caption: blob:https://alneami.netlify.app/3778f636-c2c2-4404-8cb6-0017e52f0b67
 ---
 زفزأضكضكجشخزكولصيذثصلشدزذأهبهوحكتسلرذيجغبضزلجصبلسخ
 أظفههمهيسيستشطحهغدنججعغطغجظبسنذعلنرفضذظلزمهظتلدتعف
