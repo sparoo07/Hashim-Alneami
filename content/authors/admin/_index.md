@@ -1,6 +1,6 @@
 ---
 title: هاشم النعمي
-role: عضو هيئة تدريب
+role: ""
 avatar_filename: https://avatars.githubusercontent.com/u/19214731?v=4
 bio: I have spent the past few years focusing on the research and the academic
   side of my field. In the last few years, I have been involved in various
@@ -13,9 +13,8 @@ social:
     link: about/#contact
     display:
       header: false
-organizations:
-  - name: IPA
-    url: ""
+organizations: []
+email: hashim.alneami@gmail.com
 superuser: true
 status:
   icon: ☕️
