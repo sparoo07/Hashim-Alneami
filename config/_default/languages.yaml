@@ -11,6 +11,7 @@ en:
 # Uncomment the lines below to configure your website in a second language.
 ar:
   languageCode: ar
+  languagedirection: rtl
   contentDir: content/ar
   title: مدونة هاشم
   params:
