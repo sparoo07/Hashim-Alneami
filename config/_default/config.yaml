@@ -20,7 +20,7 @@ cascade:
     commentable: true
     show_related: true
     show_breadcrumb: true
-    breadcrumbDivider: \
+    breadcrumbDivider: -
     share: true
     header:
       navbar:
