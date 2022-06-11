@@ -2,11 +2,7 @@
 title: هاشم النعمي
 role: ""
 avatar_filename: https://avatars.githubusercontent.com/u/19214731?v=4
-bio: I have spent the past few years focusing on the research and the academic
-  side of my field. In the last few years, I have been involved in various
-  projects linked to the new vision (2030) of Saudi Arabia. Primarily on studies
-  related to the development of E Learning, and Open Data platforms, as well as
-  information sharing and social engineering.
+bio: لقد أمضيت السنوات القليلة الماضية في التركيز على البحث والجانب الأكاديمي من مجال عملي. في السنوات القليلة الماضية ، شاركت في العديد من المشاريع المرتبطة بالرؤية الجديدة (2030) للمملكة العربية السعودية. في المقام الأول على الدراسات المتعلقة بتطوير التعلم الإلكتروني ومنصات البيانات المفتوحة ، فضلاً عن مشاركة المعلومات والهندسة الاجتماعية.
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,12 +17,12 @@ status:
 ---
 
 
-Responsible for providing academic assistance to the department’s professors as well as participating in researches and studies assigned to the IT department. My tasks included:
+مسؤول عن تقديم المساعدة الأكاديمية لأساتذة القسم وكذلك المشاركة في البحوث والدراسات الموكلة لقسم تكنولوجيا المعلومات. تضمنت المهام الخاصة بي:
 2014 - 2017
 
-* Designing a new course (Data Management) for a post-bachelor program (IT Management) based on researches, case studies, and textbooks.
-* Assessing the status of the open data platform of general government sectors in Saudi Arabia ( Case Study )
-* Writing a literature review on the evolution of the Technology Acceptance Model (TAM).
-* Preparing a report about the digital transformation plan of the National Transformation Program (2020) of Saudi Arabia.
-* Writing a summary for The Data Revolution book for Ethrai E-Learning Platform.
-* Assistant Trainer for Introduction to Data Management course.
+* تصميم مقرر جديد (إدارة البيانات) لبرنامج ما بعد البكالوريوس (إدارة تكنولوجيا المعلومات) على أساس البحوث ودراسات الحالة والكتب المدرسية.
+* تقييم حالة منصة البيانات المفتوحة للقطاعات الحكومية العامة في المملكة العربية السعودية (دراسة حالة)
+* كتابة مراجعة الأدبيات حول تطور نموذج قبول التكنولوجيا (TAM).
+* إعداد تقرير عن خطة التحول الرقمي لبرنامج التحول الوطني (2020) للمملكة العربية السعودية.
+* كتابة ملخص لكتاب ثورة البيانات لمنصة إثراي للتعلم الإلكتروني.
+* مدرب مساعد لمقدمة في دورة إدارة البيانات.
