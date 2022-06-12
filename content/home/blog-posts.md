@@ -5,8 +5,8 @@
 widget: pages
 headless: true
 active: true
-weight: 20
-title: ''
+weight: 30
+title: 'المواضيع الحديثة'
 subtitle: ''
 content:
   offset: 0
@@ -23,7 +23,7 @@ content:
     enable: false
 design:
   columns: '1'
-  view: card
+  view: compact
   flip_alt_rows: true
   background: {}
   spacing: {padding: [0, 0, 0, 0]}
