@@ -9,7 +9,7 @@ headless: true
 weight: 10
 
 author: admin
-design:
+#design:
   #background:
     #color: '#faebd7'
    # text_color_light: false

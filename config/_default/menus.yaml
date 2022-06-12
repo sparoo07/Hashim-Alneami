@@ -7,6 +7,9 @@ main:
   - name: الرئيسية
     url: /
     weight: 10
+  - name: المواضيع
+    url: post/
+    weight: 20
   - name: حول
     url: about/
-    weight: 20
+    weight: 30
