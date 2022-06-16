@@ -6,7 +6,7 @@ bio:
 social:
   - icon: user
     icon_pack: fas
-    link: about/
+    link: about/#contact
     display:
       header: false
 organizations: []
