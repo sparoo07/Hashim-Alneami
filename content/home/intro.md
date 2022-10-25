@@ -11,11 +11,13 @@ weight: 10
 author: admin
 #design:
   #background:
-    #color: '#faebd7'
+    #color: '#F2F2F2'
    # text_color_light: false
     #video:
    #   path:  # enter filename of a video in /assets/media
   #css_class: fullscreen
 ---
 
-مدونة هاشم لمختلف المواضيع التقنية
+## مدونة هاشم لمختلف المواضيع التقنية
+#
+#
