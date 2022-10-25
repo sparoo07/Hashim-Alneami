@@ -13,7 +13,7 @@ organizations: []
 email: hashim.alneami@gmail.com
 superuser: true
 status:
-  icon: ☕️
+  #icon: 🖥️
 ---
 
 ### مهتم في المواضيع التقنية التي تشمل
