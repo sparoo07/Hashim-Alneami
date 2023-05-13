@@ -3,7 +3,7 @@ title: هاشم النعمي
 role: ""
 avatar_filename: https://avatars.githubusercontent.com/u/19214731?v=4
 bio: 
-#social:
+social:
   - icon: user
     icon_pack: fas
     link: about/#contact
