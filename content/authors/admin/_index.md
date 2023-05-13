@@ -1,14 +1,14 @@
 ---
-title: هاشم النعمي
+title: هاشم
 role: ""
 avatar_filename: https://avatars.githubusercontent.com/u/19214731?v=4
 bio: 
-social:
-  - icon: user
-    icon_pack: fas
-    link: about/#contact
-    display:
-      header: false
+#social:
+#  - icon: user
+#    icon_pack: fas
+#    link: about/#contact
+#    display:
+#      header: false
 organizations: []
 email: hashim.alneami@gmail.com
 superuser: true

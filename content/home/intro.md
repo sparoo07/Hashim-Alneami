@@ -18,6 +18,6 @@ author: admin
   #css_class: fullscreen
 ---
 
-## مدونة هاشم لمختلف المواضيع التقنية
+## مدونة
 #
 #
