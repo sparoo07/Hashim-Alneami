@@ -26,45 +26,15 @@ image:
 
 *التعلم الآلي* هو دراسة الخوارزميات التي يمكن أن تتعلم من التجربة. نظرًا لأن خوارزمية التعلم الآلي تجمع المزيد من الخبرة، عادةً في شكل بيانات رصد أو تفاعلات مع بيئة، فإن أدائها يتحسن. قارن هذا بمنصة التجارة الإلكترونية الحتمية الخاصة بنا، والتي تتبع نفس منطق الأعمال، بغض النظر عن مقدار الخبرة المتراكمة، حتى يتعلم المطورون أنفسهم ويقررون أن الوقت قد حان لتحديث البرنامج.
 
-## A Motivating Example
+## مثال محفز
 
-Before beginning writing, the authors of this book,
-like much of the work force, had to become caffeinated.
-We hopped in the car and started driving.
-Using an iPhone, Alex called out "Hey Siri",
-awakening the phone's voice recognition system.
-Then Mu commanded "directions to Blue Bottle coffee shop".
-The phone quickly displayed the transcription of his command.
-It also recognized that we were asking for directions
-and launched the Maps application (app)
-to fulfill our request.
-Once launched, the Maps app identified a number of routes.
-Next to each route, the phone displayed a predicted transit time.
-While we fabricated this story for pedagogical convenience,
-it demonstrates that in the span of just a few seconds,
-our everyday interactions with a smart phone
-can engage several machine learning models.
+قبل البدء في الكتابة ، كان على مؤلفي هذا الكتاب ، مثل الكثير من القوى العاملة ، أن يتناولوا الكافيين. ركبوا السيارة وبدأوا في القيادة. باستخدام iPhone ، دعا Alex "يا Siri" ، لتنبيه نظام التعرف على الصوت في الهاتف. ثم أمر مو بـ "الاتجاه إلى مقهى Blue Bottle". عرض الهاتف بسرعة نص أمره على الشاشة. أدرك الهاتف أيضًا أننا كنا نسأل عن الاتجاهات وقام بتشغيل تطبيق الخرائط لتلبية طلبنا. بمجرد إطلاقه ، حدد تطبيق الخرائط عددًا من المسارات. بجانب كل مسار ، عرض الهاتف وقت الرحلة المتوقع. بينما قام المؤلفون بتلفيق هذه القصة ، إلا أنها توضح أنه في غضون ثوانٍ قليلة ، كيف يمكن لتفاعلاتنا اليومية مع الهواتف الذكية إشراك العديد من نماذج التعلم الآلي.
 
 
-Imagine just writing a program to respond to a *wake word*
-such as "Alexa", "OK Google", and "Hey Siri".
-Try coding it up in a room by yourself
-with nothing but a computer and a code editor,
-as illustrated in :numref:`fig_wake_word`.
-How would you write such a program from first principles?
-Think about it... the problem is hard.
-Every second, the microphone will collect roughly
-44000 samples.
-Each sample is a measurement of the amplitude of the sound wave.
-What rule could map reliably from a snippet of raw audio to confident predictions
-$\{\text{yes}, \text{no}\}$
-on whether the snippet contains the wake word?
-If you are stuck, do not worry.
-We do not know how to write such a program from scratch either.
-That is why we use machine learning.
+تخيل مجرد كتابة برنامج للرد على كلمة تنبيه مثل "Alexa" و "OK Google" و "Hey Siri". جرب برمجته في غرفة بمفردك باستخدام جهاز كمبيوتر ومحرر كود ، كما هو موضح في `الشكل 1.1.1`. كيف تكتب مثل هذا البرنامج على أساس المبادئ الأولى التي ذكرناها؟ فكر في الأمر ... المشكلة صعبة. كل ثانية ، سيجمع الميكروفون ما يقرب من 44000 عينة صوت. كل عينة هي قياس لسعة الموجة الصوتية. ما القاعدة التي يمكننا استخدامها والتي يمكنها تعيين مقتطف من الصوت الخام لتوقعات موثوقة {نعم ، لا} حول ما إذا كان المقتطف يحتوي على كلمة التنبيه؟ إذا كنت مرتبكًا ، فلا تقلق. نحن لا نعرف كيف نكتب مثل هذا البرنامج من الصفر أيضًا. لهذا السبب نستخدم التعلم الآلي.
 
 ![Identify a wake word.](../img/wake-word.svg)
-:label:`fig_wake_word`
+:label:`الشكل 1.1.1`
 
 
 Here is the trick.
