@@ -38,7 +38,7 @@ body {
   background: rgb(255, 255, 255);
   box-shadow: none !important; // 'important' to override dark mode box-shadow too.
   align-items: center;
-  position: relative;
+  justify-items: auto;
 }
 
 // custom section paddingFresh 
@@ -83,9 +83,6 @@ ul.network-icon .big-icon {
 
 .home-section header {
   margin-bottom: 1em;
-  align-items: center;
-  padding: auto;
-  position: relative;
 }
 
 // Narrower container for Hello World sections (primarily Blank widget content).
