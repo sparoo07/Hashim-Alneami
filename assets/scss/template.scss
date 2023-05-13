@@ -37,6 +37,9 @@ body {
 .navbar {
   background: rgb(255, 255, 255);
   box-shadow: none !important; // 'important' to override dark mode box-shadow too.
+  align-items: center;
+  padding: auto;
+  position: relative;
 }
 
 // custom section paddingFresh 
