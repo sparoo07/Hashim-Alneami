@@ -10,107 +10,21 @@ image:
 # مقدمة
 :label:`chapter_introduction`
 
-Until recently, nearly every computer program
-that you might interact with on an ordinary day
-was coded up as a rigid set of rules
-specifying precisely how it should behave.
-Say that we wanted to write an application
-to manage an e-commerce platform.
-After huddling around a whiteboard
-for a few hours to ponder the problem,
-we might settle on the broad strokes
-of a working solution, for example:
-(i) users interact with the application through an interface
-running in a web browser or mobile application;
-(ii) our application interacts with a commercial-grade database engine
-to keep track of each user's state and maintain records
-of historical transactions;
-and (iii) at the heart of our application,
-the *business logic* (you might say, the *brains*) of our application
-spells out a set of rules that map every conceivable circumstance
-to the corresponding action that our program should take.
+حتى وقت قريب، تم برمجة كل برنامج كمبيوتر تقريبًا قد تتفاعل معه بشكل يومي كمجموعة صارمة من القواعد التي تحدد بدقة كيف يجب أن يتصرف. لنفترض أننا أردنا كتابة تطبيق لإدارة منصة تجارة إلكترونية. بعد الالتفاف حول السبورة لبضع ساعات للتفكير في المشكلة، قد نستقر على الخطوط العريضة لحل عملي ، على سبيل المثال: (1) يتفاعل المستخدمون مع التطبيق من خلال واجهة تعمل في متصفح الويب أو تطبيق الهاتف المحمول ؛ (2) يتفاعل تطبيقنا مع محرك قاعدة بيانات لتتبع حالة كل مستخدم والاحتفاظ بسجلات المعاملات التاريخية ؛ و (3) في قلب تطبيقنا ، يوضح * منطق العمل * (يمكنك القول ، * العقل *) لتطبيقنا مجموعة من القواعد التي تحدد كل ظرف يمكن تصوره للإجراء المقابل الذي يجب أن يتخذه برنامجنا.
 
-To build the brains of our application,
-we might enumerate all the common events
-that our program should handle.
-For example, whenever a customer clicks
-to add an item to their shopping cart,
-our program should add an entry
-to the shopping cart database table,
-associating that user's ID
-with the requested product's ID.
-We might then attempt to step through
-every possible corner case,
-testing the appropriateness of our rules
-and making any necessary modifications.
-What happens if a user
-initiates a purchase with an empty cart?
-While few developers ever get it
-completely right the first time
-(it might take some test runs to work out the kinks),
-for the most part, we can write such programs
-and confidently launch them
-*before* ever seeing a real customer.
-Our ability to manually design automated systems
-that drive functioning products and systems,
-often in novel situations,
-is a remarkable cognitive feat.
-And when you are able to devise solutions
-that work $100\%$ of the time,
-you typically should not be
-worrying about machine learning.
+لبناء أدمغة تطبيقنا ، قد نقوم بتعداد جميع الأحداث المشتركة التي يجب أن يتعامل معها برنامجنا. على سبيل المثال ، عندما ينقر أحد العملاء لإضافة عنصر إلى سلة التسوق الخاصة به ، يجب على برنامجنا إضافة إدخال إلى جدول قاعدة بيانات عربة التسوق ، مع ربط معرف المستخدم بمعرف المنتج المطلوب. قد نحاول بعد ذلك مراجعة كل حالة ممكنة ، واختبار مدى ملاءمة قواعدنا وإجراء أي تعديلات ضرورية. ماذا يحدث إذا بدأ المستخدم في الشراء بسلة تسوق فارغة؟ في حين أن عددًا قليلاً فقط من المطورين قد يكتشفون ذلك بشكل صحيح من المرة الأولى (قد يستغرق الأمر بعض الاختبارات التجريبية لحل الخلل) ، في الغالب ، يمكننا كتابة مثل هذه البرامج وإطلاقها بثقة قبل التفاعل مع عميل حقيقي. تعد قدرتنا على تصميم الأنظمة الآلية التي تقود المنتجات والأنظمة العاملة يدويًا إنجازًا معرفيًا رائعًا. وعندما تكون قادرًا على ابتكار حلول تعمل بنسبة 100٪ من الوقت ، فلا داعي للقلق بشأن التعلم الآلي.
 
-Fortunately for the growing community
-of machine learning scientists,
-many tasks that we would like to automate
-do not bend so easily to human ingenuity.
-Imagine huddling around the whiteboard
-with the smartest minds you know,
-but this time you are tackling
-one of the following problems:
+لحسن الحظ بالنسبة للمجتمع المتنامي لعلماء التعلم الآلي، فإن العديد من المهام التي نرغب في أتمتها لا تنحني بسهولة إلى براعة الإنسان. تخيل أنك تتجمع حول السبورة البيضاء مع أذكى العقول التي تعرفها، لكنك هذه المرة تتعامل مع إحدى المشكلات التالية:
 
-* Write a program that predicts tomorrow's weather given geographic information, satellite images, and a trailing window of past weather.
-* Write a program that takes in a factoid question, expressed in free-form text, and  answers it correctly.
-* Write a program that, given an image, identifies all of people depicted in it and draws outlines around each.
-* Write a program that presents users with products that they are likely to enjoy but unlikely, in the natural course of browsing, to encounter.
+* اكتب برنامجًا يتنبأ بطقس الغد بناءً على المعلومات الجغرافية وصور الأقمار الصناعية وبيانات الطقس السابق.
+* اكتب برنامجًا يأخذ سؤالاً واقعيًا، مُعبراً عنه بنص حر، ويجيب عليه بشكل صحيح.
+* اكتب برنامجًا يتعرف على جميع الأشخاص الذين تم تصويرهم في صورة ما ويرسم الخطوط العريضة حول كل منهم.
+* اكتب برنامجًا يقدم للمستخدمين منتجات من المحتمل أن يستمتعوا بها ولكن من غير المحتمل أن يواجهوها عند التصفح بشكل طبيعي.
 
-For these problems,
-even elite programmers would struggle
-to code up solutions from scratch.
-The reasons can vary.
-Sometimes the program that we are looking for
-follows a pattern that changes over time,
-so there is no fixed right answer!
-In such cases, any successful solution
-must adapt gracefully to a changing world.
-At other times, the relationship (say between pixels,
-and abstract categories) may be too complicated,
-requiring thousands or millions of computations
-and following unknown principles.
-In the case of image recognition,
-the precise steps required to perform the task
-lie beyond our conscious understanding,
-even though our subconscious cognitive processes
-execute the task effortlessly.
+لهذه المشاكل، حتى نخبة المبرمجين سيواجهون صعوبة في برمجة الحلول من الصفر. يمكن أن تختلف الأسباب. في بعض الأحيان، يتبع البرنامج الذي نبحث عنه نمطًا يتغير بمرور الوقت، لذلك لا توجد إجابة صحيحة ثابتة! في مثل هذه الحالات، يجب أن يتكيف أي حل ناجح برشاقة مع عالم متغير. في أوقات أخرى، قد تكون العلاقة (على سبيل المثال بين وحدات البيكسل والفئات المجردة) معقدة للغاية، وتتطلب آلاف أو ملايين الحسابات واتباع مبادئ غير معروفة. في حالة التعرف على الصور، تكمن الخطوات الدقيقة المطلوبة لأداء المهمة خارج فهمنا الواعي، على الرغم من أن عمليات الإدراك اللاواعي لدينا تنفذ المهمة دون عناء.
 
 
-*Machine learning* is the study of algorithms
-that can learn from experience.
-As a machine learning algorithm accumulates more experience,
-typically in the form of observational data
-or interactions with an environment,
-its performance improves.
-Contrast this with our deterministic e-commerce platform,
-which follows the same business logic,
-no matter how much experience accrues,
-until the developers themselves learn and decide
-that it is time to update the software.
-In this book, we will teach you
-the fundamentals of machine learning,
-focusing in particular on *deep learning*,
-a powerful set of techniques
-driving innovations in areas as diverse as computer vision,
-natural language processing, healthcare, and genomics.
+*التعلم الآلي* هو دراسة الخوارزميات التي يمكن أن تتعلم من التجربة. نظرًا لأن خوارزمية التعلم الآلي تجمع المزيد من الخبرة، عادةً في شكل بيانات رصد أو تفاعلات مع بيئة، فإن أدائها يتحسن. قارن هذا بمنصة التجارة الإلكترونية الحتمية الخاصة بنا، والتي تتبع نفس منطق الأعمال، بغض النظر عن مقدار الخبرة المتراكمة، حتى يتعلم المطورون أنفسهم ويقررون أن الوقت قد حان لتحديث البرنامج.
 
 ## A Motivating Example
 
