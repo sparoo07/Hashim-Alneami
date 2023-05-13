@@ -7,8 +7,8 @@ image:
   placement: 1
   caption: 'تعلم الآلة'
 ---
-# Introduction
-:label:`chap_introduction`
+# مقدمة
+:label:`chapter_introduction`
 
 Until recently, nearly every computer program
 that you might interact with on an ordinary day
