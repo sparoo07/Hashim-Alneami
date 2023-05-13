@@ -26,5 +26,5 @@ design:
   view: list
   flip_alt_rows: true
   background: {}
-  spacing: {padding: ["20px", "0", "20px", "0"]}
+  spacing: {padding: ["40px", "0", "40px", "0"]}
 ---

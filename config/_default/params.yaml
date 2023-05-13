@@ -30,7 +30,6 @@ marketing:
 # Site header
 
 header:
-  align: c
   navbar:
     enable: true
     align: l
