@@ -6,14 +6,16 @@ widget: pages
 headless: true
 active: true
 weight: 30
-title: 'المواضيع الحديثة'
+title: 'أحدث الإضافات'
 subtitle: ''
 content:
   offset: 0
   order: desc
   filters:
     folders:
+      - tutorials
       - post
+      - publication
     tag: ''
     category: ''
     publication_type: ''

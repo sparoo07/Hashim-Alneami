@@ -6,7 +6,7 @@ widget: about.avatar
 headless: true
 
 # Order that this section will appear in.
-weight: 10
+weight: 50
 
 author: admin
 #design:
@@ -18,6 +18,6 @@ author: admin
   #css_class: fullscreen
 ---
 
-#
+# 
 #
 #

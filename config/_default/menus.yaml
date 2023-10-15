@@ -7,12 +7,15 @@ main:
   - name: الرئيسية
     url: /
     weight: 10
-  - name: المواضيع
+  - name: المقالات
     url: post/
     weight: 20
+  - name: الدروس
+    url: tutorials/
+    weight: 30
   - name: الأبحاث
     url: publication/
-    weight: 30
+    weight: 40
   - name: تواصل معنا
     url: about/
-    weight: 40
+    weight: 50

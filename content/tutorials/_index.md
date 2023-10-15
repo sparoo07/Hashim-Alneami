@@ -1,5 +1,5 @@
 ---
-title: المقالات
+title: الدروس
 cms_exclude: true
 
 # View.
