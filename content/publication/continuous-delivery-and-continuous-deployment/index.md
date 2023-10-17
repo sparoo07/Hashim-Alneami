@@ -1,31 +1,31 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "A Literature Review on Continuous Delivery and Continuous Deployment Problems Causes and Solutions"
-authors: []
+title: "مراجعة للأدبيات حول مشكلات التسليم المستمر والنشر المستمر: الأسباب والحلول"
+authors: [م.هاشم النعمي]
 date: Jan 2, 2019
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2022-06-12T21:29:18+03:00
+publishDate: 2019-01-02T21:29:18+03:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Embry-Riddle Aeronautical University (not-published)"
-publication_short: ""
+publication_short: "Embry-Riddle"
 
-abstract: "Continuous Delivery (CD) is a software development discipline which facilitates the releasing of software at any time. Additionally, continuous deployment is an extension of CD in which the continuity is extended to the deployment to production stage. With respect to the current implementation of these disciplines, there were issues and challenges standing in the way of adapting CD and continuous deployment by software companies. In this paper, I conduct a literature review on continuous delivery and continuous deployment in which I define both disciplines and explained their differences. I also discuss the problems regarding them as well as the causes and introduce some of the suggested solutions proposed in previous research papers. I then give an analytical exposition on the existing solutions to CD problems."
+abstract: "التسليم المستمر (CD) هو نظام لتطوير البرمجيات يسهل إصدار البرامج في أي وقت. بالإضافة إلى ذلك، يعد النشر المستمر امتدادًا للتسليم المستمر حيث تمتد الاستمرارية إلى النشر في مرحلة الإنتاج. وفيما يتعلق بالتنفيذ الحالي لهذه التخصصات، كانت هناك قضايا وتحديات تقف في طريق التكيف مع التسليم المستمر والنشر المستمر من قبل شركات البرمجيات. في هذه الورقة، أقوم بإجراء مراجعة للأدبيات المتعلقة بالتسليم المستمر والنشر المستمر حيث أقوم بتعريف كلا التخصصين وشرح الاختلافات بينهما. كما أناقش المشكلات المتعلقة بها وأسبابها وأقدم بعض الحلول المقترحة من الأوراق البحثية السابقة. ثم أقدم عرضًا تحليليًا للحلول الحالية لمشاكل التسليم المستمر."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
 tags: []
-categories: []
+categories: [Information Sharing, E-Government, Cross-Boundary Information Sharing, Saudi Arabia]
 featured: false
 
 # Custom links (optional).

@@ -1,6 +1,6 @@
-name: Minimal
-google_fonts: 'family=Nanum+Gothic&family=Noto+Naskh+Arabic'
-heading_font: Noto Naskh Arabic
-body_font: Noto Naskh Arabic
-nav_font: Noto Naskh Arabic
-mono_font: Noto Naskh Arabic
+name: my_font_set
+google_fonts: 'family=Cairo+Play:wght@400;700&family=Vazirmatn'
+heading_font: Cairo Play
+body_font: Vazirmatn
+nav_font: Cairo Play
+mono_font: Vazirmatn

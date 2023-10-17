@@ -5,15 +5,15 @@
 widget: pages
 headless: true
 active: true
-weight: 20
-title: 'أحدث المقالات'
+weight: 30
+title: 'الأبحاث'
 subtitle: ''
 content:
   offset: 0
   order: desc
   filters:
     folders:
-      - post
+      - publication
     tag: ''
     category: ''
     publication_type: ''
@@ -23,9 +23,5 @@ content:
     enable: false
 design:
   columns: '1'
-  view: list
-  flip_alt_rows: true
-  # Set the background color to light yellow (see https://wowchemy.com/docs/page-builder/#backgrounds).
-  background:
-  spacing: {padding: ["40px", "0", "40px", "0"]}
+  view: compact
 ---
