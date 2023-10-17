@@ -5,7 +5,7 @@
 widget: pages
 headless: true
 active: true
-weight: 20
+weight: 40
 title: 'أحدث المقالات'
 subtitle: ''
 content:
@@ -22,7 +22,7 @@ content:
   archive:
     enable: false
 design:
-  columns: '1'
+  columns: '2'
   view: list
   flip_alt_rows: true
   # Set the background color to light yellow (see https://wowchemy.com/docs/page-builder/#backgrounds).
