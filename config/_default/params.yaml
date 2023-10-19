@@ -31,6 +31,7 @@ marketing:
 
 header:
   navbar:
+    block: navbar
     enable: true
     align: l
     show_logo: true
@@ -39,7 +40,6 @@ header:
     show_search: true
     highlight_active_link: true
     # Has been edited
-    show_logo: false
 
 
 
